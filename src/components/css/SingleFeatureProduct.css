@@ -1,0 +1,16 @@
+.product-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 50px 0 60px; */
+}
+
+.product-container .feature-img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
+  margin: 20px;
+  cursor: pointer;
+}

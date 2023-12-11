@@ -1,0 +1,51 @@
+.row {
+  /* width: 100%; */
+  /* max-width: 1170px; */
+  /* background-color: rgb(2, 4, 35); */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 30px;
+  padding: 80px;
+  color: white;
+}
+
+.row .left h1,
+.herosection-p {
+  padding: 5px 0 20px;
+}
+.row span {
+  color: #5b81b6;
+}
+
+.row .left .herosection-p {
+  line-height: 1.5;
+}
+
+.row .left button {
+  color: white;
+  background-color: #2b84ff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.row .left button:hover {
+  background-color: #1170f5;
+}
+
+.row .right img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 40px;
+}
+
+@media (max-width: 833px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+}

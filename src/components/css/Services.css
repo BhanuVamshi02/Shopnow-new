@@ -1,0 +1,76 @@
+.container {
+  /* width: 100%; */
+  color: rgb(255, 255, 255);
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20x;
+  padding: 30px;
+  gap: 20px;
+  background-color: rgb(60, 64, 118);
+}
+
+.container .one,
+.three {
+  background-color: rgb(2, 4, 35);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  height: 150px;
+  padding: 0 10px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .one p {
+  margin: 0;
+}
+
+.container .two {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+  gap: 10px;
+}
+.container .two .two-top {
+  background-color: rgb(2, 4, 35);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.container .two .two-bottom {
+  background-color: rgb(2, 4, 35);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 10px;
+}
+
+.container .three p {
+  margin: 0;
+}
+
+@media (max-width: 550px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
