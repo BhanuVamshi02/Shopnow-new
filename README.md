@@ -1,5 +1,3 @@
-Certainly, if it's a React Vite app, you can specify that in your README. Here's an updated version:
-
 # ShopNow E-Commerce Platform
 
 An innovative e-commerce platform, ShopNow, built with React and Vite, prioritizes responsive web design for an optimal user experience across devices.
